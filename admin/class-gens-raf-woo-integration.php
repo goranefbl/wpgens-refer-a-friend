@@ -189,7 +189,7 @@ class WPGens_Settings_RAF extends WC_Settings_Page {
 						'class'    => 'wc-enhanced-select',
 						'options'		=> array(
 							'fixed_cart'	=> 'Cart Discount',
-							'percent_cart'	=> 'Cart % Discount',
+							'percent'	=> 'Cart % Discount',
 //							'fixed_product'	=> 'Product Discount',
 //							'percent_product'	=> 'Product % Discount'
 						)
