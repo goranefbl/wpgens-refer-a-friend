@@ -11,7 +11,7 @@
  * Plugin Name:       Refer A Friend for WooCommerce by WPGens
  * Plugin URI:        http://itsgoran.com/gens-raf/
  * Description:       Refer A Friend System for WooCommerce. Go to WooCommerce -> Settings -> Refer a friend tab to set it up.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Goran Jakovljevic
  * Author URI:        http://www.itsgoran.com
  * License:           GPL-2.0+

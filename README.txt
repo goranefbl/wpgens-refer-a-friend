@@ -3,15 +3,15 @@ Contributors: goran87
 Tags: refer a friend, refer, referral, woocommerce, ecommerce, affiliate, referral marketing,reward, sponsors, sponsorship
 Requires at least: 3.6
 Tested up to: 4.3.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Referral System for WooCommerce. Each customer has unique referral link that rewards them with a coupon after someone makes a purchase through their link
+Referral System for WooCommerce. Each customer has referral link that rewards them with a coupon after someone makes a purchase through their link
 
 == Description ==
 
-Refer A Friend plugin will create a unique url for each of your WooCommerce members, that will be visible on their account page. Member can use that link to link to your products, and every time someone purchase something through their link, you will reward them with a coupon. Coupons are connected with WooCoupons so you can define value of each coupon, type, minimum order and can it be combined with other woo coupons. Coupons are sent to person who referred you a customers only after orders are marked as complete. 
+Refer A Friend plugin will create a unique url for each of your WooCommerce members, that will be visible on their account page. Members can use that link to link to your products, and every time someone purchases something through their link, you will reward them with a coupon. Coupons are connected with WooCoupons so you can define value of each coupon, type, minimum order and can it be combined with other woo coupons. After order is marked as complete, coupon is sent to a person who referred you a customers. 
 Every time referral receives a coupon, it will be shown in his account page and only he can use it.
 As with our other plugins, refer a friend is coded with best practice, it is super light and will not slow down your site.
 
@@ -36,5 +36,7 @@ If you have any suggestions/feedback/feature on how i could improve Refer a Frie
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+* Fixed min amount bug and coupon type issue 14.11.2015
+= 1.0.0 =
 * Initial Release 29. October 2015
