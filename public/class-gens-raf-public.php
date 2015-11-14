@@ -197,7 +197,7 @@ class Gens_RAF_Public {
 		$duration = get_option( 'gens_raf_coupon_duration' );
 		$individual = get_option( 'gens_raf_individual_use' );
 		$discount_type = get_option( 'gens_raf_coupon_type' );
-		$minimum_amount = get_option( 'gens_raf_coupon_amount' );		
+		$minimum_amount = get_option( 'gens_raf_min_order' );		
 		$coupon = array(
 			'post_title' => $coupon_code,
 			'post_excerpt' => 'Referral coupon for: '.$user_email,
