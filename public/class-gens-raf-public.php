@@ -92,7 +92,7 @@ class Gens_RAF_Public {
 		) );
 		$user_id = $gens_users[0];
 
-		if ( $user_id != '' ) { // should we check if its id ?
+		if ( $user_id != '' && !empty($rafID) ) { // should we check if its id ?
 			// Generate Coupon and returns it
 			$coupon_code = $this->generate_coupons( $user_id  ); 
 			// Send via Email
