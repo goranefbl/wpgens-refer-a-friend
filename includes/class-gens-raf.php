@@ -69,7 +69,7 @@ class Gens_RAF {
 	public function __construct() {
 
 		$this->gens_raf = 'gens-raf';
-		$this->version = '1.0.0';
+		$this->version = '1.0.6';
 
 		$this->load_dependencies();
 		$this->set_locale();

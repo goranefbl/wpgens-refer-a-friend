@@ -1,0 +1,215 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Refer A Friend for WooCommerce by WPGens\n"
+"POT-Creation-Date: 2015-12-22 14:07+0100\n"
+"PO-Revision-Date: 2015-12-22 14:06+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: gens-raf.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-gens-raf-admin.php:75
+msgid ""
+"Refer A Friend Plugin is enabled but not effective. It requires WooCommerce "
+"in order to work."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:53
+msgid "Refer A Friend"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:70
+#: admin/class-gens-raf-woo-integration.php:113
+#: admin/class-gens-raf-woo-integration.php:144
+#: admin/class-gens-raf-woo-integration.php:174
+#: admin/class-gens-raf-woo-integration.php:228
+msgid "General"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:71
+msgid "Email"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:72
+msgid "More Free Plugins"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:91
+msgid "Email Settings"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:98
+msgid "Email Subject"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:100
+msgid ""
+"Enter the subject of email that will be sent when notifiying the user of "
+"their coupon code."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:105
+msgid "Email Message"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:108
+msgid ""
+"Text that will appear in email that is sent to user once they get the code. "
+"Use {{code}} to add coupon code.HTML allowed."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:124
+msgid "Check out all of our super cool plugins"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:126
+#, php-format
+msgid ""
+"Thanks for using Refer a Friend plugin. If you have any cool idea that we "
+"could add to plugin, be sure to contact us at <a target=\"_blank\" href=\"%s"
+"\">goranefbl@gmail.com</a>. \n"
+"\t\t\t\t\t\t<br/>Our plugins are coded with best practices in mind, they "
+"will not slow down your site or spam database. Guaranteed to work and always "
+"up to date.\n"
+"\t\t\t\t\t\tCheck out all of our plugins at: <a target=\"_blank\" href=\"%s"
+"\">this link.</a>"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:133
+msgid "Plugins"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:151
+msgid "Disable"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:153
+msgid "Disable Coupons"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:154
+msgid "Check to disable. Referal links wont work anymore."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:159
+msgid "Cookie Time"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:161
+msgid ""
+"As long as cookie is saved, user will recieve coupon after referal purchase "
+"product."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:162
+msgid "How long to keep cookies before it expires.(In days)"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:166
+#: admin/class-gens-raf-woo-integration.php:167
+msgid "Single Purchase"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:169
+msgid ""
+"This means that coupon is sent only the first time referral makes a "
+"purchase, as referral cookie is deleted after it."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:170
+msgid "If checked, cookie will be deleted after customer makes a purchase."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:180
+msgid "Coupon Settings"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:182
+msgid "General Options, setup plugin here first."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:187
+msgid "Coupon Type"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:199
+msgid "Coupon Amount"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:201
+msgid ""
+" Entered without the currency unit or a percent sign as these will be added "
+"automatically, e.g., ’10’ for 10£ or 10%."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:202
+msgid ""
+"Fixed value or percentage off depending on the discount type you choose."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:215
+msgid "Minimum Order"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:217
+msgid "Define minimum order subtotal in order for coupon to work."
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:221
+msgid "Individual Use"
+msgstr ""
+
+#: admin/class-gens-raf-woo-integration.php:223
+msgid ""
+"Check this box if the coupon cannot be used in conjunction with other "
+"coupons."
+msgstr ""
+
+#: public/class-gens-raf-public.php:257
+msgid "Your Referal URL:"
+msgstr ""
+
+#: public/class-gens-raf-public.php:288
+msgid "Unused Refer a Friend Coupons"
+msgstr ""
+
+#: public/class-gens-raf-public.php:291
+msgid "Coupon code"
+msgstr ""
+
+#: public/class-gens-raf-public.php:292
+msgid "Coupon discount"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Refer A Friend for WooCommerce by WPGens"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://itsgoran.com/gens-raf/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Refer A Friend System for WooCommerce. Go to WooCommerce -> Settings -> "
+"Refer a friend tab to set it up."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Goran Jakovljevic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.itsgoran.com"
+msgstr ""

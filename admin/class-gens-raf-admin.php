@@ -72,7 +72,7 @@ class Gens_RAF_Admin {
 	 */
 	public function no_woo_admin_notice() { ?>
         <div class="error">
-            <p><?php _e( 'Refer A Friend Plugin is enabled but not effective. It requires WooCommerce in order to work.', 'yith-woocommerce-ajax-navigation' ); ?></p>
+            <p><?php _e( 'Refer A Friend Plugin is enabled but not effective. It requires WooCommerce in order to work.', 'gens-raf' ); ?></p>
         </div>
 	<?php }
 

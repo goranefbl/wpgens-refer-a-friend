@@ -2,8 +2,8 @@
 Contributors: goran87
 Tags: refer a friend, refer, referral, woocommerce, ecommerce, affiliate, referral marketing,reward, sponsors, sponsorship
 Requires at least: 3.6
-Tested up to: 4.3.1
-Stable tag: 1.0.1
+Tested up to: 4.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,6 +15,8 @@ Refer A Friend plugin will create a unique url for each of your WooCommerce memb
 Every time referral receives a coupon, it will be shown in his account page and only he can use it.
 As with our other plugins, refer a friend is coded with best practice, it is super light and will not slow down your site.
 
+**Coupons are created only once order is marked as complete, to prevent abuse.**
+
 For demo, check out screens in the screenshot page.
 
 If you have any suggestions/feedback/feature on how i could improve Refer a Friend plugin, please get in touch with me via email goranefbl@gmail.com.
@@ -24,7 +26,7 @@ If you have any suggestions/feedback/feature on how i could improve Refer a Frie
 
 1. Upload the Refer a Friend plugin to your site, Activate it.
 2. Go to WooCommerce -> Settings -> Refer a friend tab to set it up.
-3. Start earning more money :)
+3. Start earning more money! :)
 
 == Frequently Asked Questions ==
 
@@ -33,9 +35,18 @@ If you have any suggestions/feedback/feature on how i could improve Refer a Frie
 
 1. screenshot-1.png
 2. screenshot-2.png
+3. screenshot-3.png
 
 == Changelog ==
-
+= 1.0.6 =
+* Made so that user cant use his own referral link to gain coupons.
+= 1.0.5 =
+* Fixed translation bug, .po and .mo files will work now. Thanks Anton Markelov for bug report.
+= 1.0.4 =
+* Emails are now pretty styled like woocommerce emails.
+= 1.0.2 =
+* Fixed bug where coupon would sometimes be created even if no referal link was added
+* Translate ready
 = 1.0.1 =
 * Fixed min amount bug and coupon type issue 14.11.2015
 = 1.0.0 =

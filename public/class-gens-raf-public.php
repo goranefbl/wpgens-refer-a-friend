@@ -84,6 +84,10 @@ class Gens_RAF_Public {
 	 */
 	public function gens_create_send_coupon($order_id) {
 		$rafID = esc_attr(get_post_meta( $order_id, '_raf_id', true));
+		$order = wc_get_order( $order_id );
+		$order_total = $order->get_total();
+		$minimum_amount = get_option( 'gens_raf_min_ref_order' );
+
 		$gens_users = get_users( array(
 			"meta_key" => "gens_referral_id",
 			"meta_value" => $rafID,
@@ -92,7 +96,11 @@ class Gens_RAF_Public {
 		) );
 		$user_id = $gens_users[0];
 
-		if ( $user_id != '' && !empty($rafID) ) { // should we check if its id ?
+		if ( $gens_users && !empty($rafID) ) { // if array is not empty and id exists
+
+			if($minimum_amount && $minimum_amount > $order_total) {
+				return $order_id; //exit, dont generate
+			}
 			// Generate Coupon and returns it
 			$coupon_code = $this->generate_coupons( $user_id  ); 
 			// Send via Email
@@ -112,17 +120,21 @@ class Gens_RAF_Public {
 			return false;
 		}
 
+		global $woocommerce;
+		$mailer = $woocommerce->mailer();
 
 		$user_info = get_userdata($user_id);
 		$user_email = $user_info->user_email;
-		$headers = array('Content-Type: text/html; charset=UTF-8');
-		$message = get_option( 'gens_raf_email_message' );
-		$message = str_replace( '{{code}}', $coupon_code, $message );
+		$user_message = get_option( 'gens_raf_email_message' );
 		$subject = get_option( 'gens_raf_email_subject' );
+		ob_start();
+		wc_get_template( 'emails/email-header.php', array( 'email_heading' => $subject ) );
+		echo str_replace( '{{code}}', $coupon_code, $user_message );
+		wc_get_template( 'emails/email-footer.php' );
+		$message = ob_get_clean();
 		// Debug wp_die($user_email);
-		wp_mail( $user_email, $subject, $message,$headers);
+		$mailer->send( $user_email, $subject, $message);
 
-		return true;
 	}
 
 	/**
